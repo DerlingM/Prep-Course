@@ -31,6 +31,7 @@ function sumarArray(numeros, cb) {
     sumaNum = sumaNum + numeros[i];
   }
   cb(sumaNum);
+
 }
 
 function forEach(array, cb) {
